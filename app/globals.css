@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fdfbf7;
+  --bg-soft: #f1f5ef;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--bg);
+    color: theme("colors.ink");
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background-color: theme("colors.accent");
+    color: #fff;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), var(--font-sans), sans-serif;
+    letter-spacing: 0.01em;
+  }
+}
+
+@layer components {
+  /* 全ページ共通の背景装飾（固定レイヤー用）：コーナーの淡いにじみ＋微細なドット */
+  .bg-decor {
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(circle at 8% -6%, #e3efe1 0, transparent 38%),
+      radial-gradient(circle at 94% 2%, #fbe6d5 0, transparent 36%),
+      radial-gradient(circle at 50% 112%, #eef3e8 0, transparent 44%),
+      radial-gradient(rgba(111, 148, 121, 0.06) 1.1px, transparent 1.3px);
+    background-size:
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      24px 24px;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  }
+
+  .card {
+    @apply rounded-3xl border border-stone-200/70 bg-white/80 shadow-[0_8px_30px_-12px_rgba(111,148,121,0.28)] backdrop-blur-sm transition-all duration-300;
+  }
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-[0_18px_40px_-16px_rgba(79,112,89,0.32)];
+  }
+
+  .pill {
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-semibold;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand px-6 py-3 font-bold text-white shadow-md shadow-brand/20 transition-all hover:bg-brand-dark hover:shadow-lg active:scale-95;
+  }
+  .btn-soft {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-light px-5 py-2.5 font-semibold text-brand-dark transition-colors hover:bg-brand hover:text-white;
+  }
+
+  .link-underline {
+    @apply bg-gradient-to-r from-accent to-accent bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] duration-300 hover:bg-[length:100%_2px];
+  }
+}
+
+/* スクロール表示（Reveal） */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* 装飾的なドット見出し下線 */
+.heading-deco::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: 0.5rem;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #6f9479, #ef9e76);
+}
