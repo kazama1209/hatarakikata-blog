@@ -67,6 +67,29 @@ const queries = {
   "office-job-not-easy": "woman office computer focused",
   "stress-gone-office": "relaxed smiling woman office",
   "service-industry-turnover": "empty restaurant interior",
+  // --- 拡充16本 ---
+  // 柱1 つらい
+  "skills-zero-office-pass": "young woman smiling office hopeful",
+  "wedding-shift-cant-attend": "woman looking at phone calendar sad",
+  "customer-complaint-burnout": "tired woman phone call stressed",
+  // 柱2 選択肢
+  "office-job-steps": "woman writing checklist notebook desk",
+  "office-qualifications": "woman studying laptop certificate",
+  "general-office-day": "office worker woman desk documents day",
+  "excel-for-office-real": "spreadsheet laptop office desk",
+  // 柱3 テンプレ
+  "resume-customer-service": "resume writing desk pen paper",
+  "why-quit-good-answer": "job interview woman talking office",
+  "reverse-questions": "woman asking question interview office",
+  "interview-danger-answers": "woman thinking interview office serious",
+  "skill-translation-table": "woman notebook planning desk office",
+  // 柱4 会社選び
+  "avoid-bad-company": "magnifying glass document warning desk",
+  "pass-fail-difference": "two women office comparison desk",
+  // 柱5 進め方
+  "agent-meeting-prep": "career consultation meeting two women desk",
+  // 柱6 転職後
+  "stress-disappeared-office": "relaxed happy woman office desk smile",
 };
 
 async function searchPhoto(key, query) {

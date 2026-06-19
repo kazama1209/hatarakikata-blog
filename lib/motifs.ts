@@ -57,6 +57,29 @@ export const slugMotif: Record<string, IllustName> = {
   "office-job-not-easy": "clock",
   "stress-gone-office": "heart-hands",
   "service-industry-turnover": "building",
+  // --- 拡充16本 ---
+  // 柱1 つらい
+  "skills-zero-office-pass": "heart-hands",
+  "wedding-shift-cant-attend": "calendar",
+  "customer-complaint-burnout": "chat",
+  // 柱2 選択肢
+  "office-job-steps": "compass",
+  "office-qualifications": "clipboard",
+  "general-office-day": "tasks",
+  "excel-for-office-real": "laptop",
+  // 柱3 テンプレ
+  "resume-customer-service": "clipboard",
+  "why-quit-good-answer": "chat",
+  "reverse-questions": "chat",
+  "interview-danger-answers": "tasks",
+  "skill-translation-table": "two-people",
+  // 柱4 会社選び
+  "avoid-bad-company": "magnifier",
+  "pass-fail-difference": "two-people",
+  // 柱5 進め方
+  "agent-meeting-prep": "two-people",
+  // 柱6 転職後
+  "stress-disappeared-office": "heart-hands",
 };
 
 const fallbackByCategory: Record<CategorySlug, IllustName> = {
