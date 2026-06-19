@@ -19,7 +19,7 @@ export default function DisclaimerPage() {
           { name: "免責事項・広告について", url: "/disclaimer" },
         ]}
       />
-      <h1 className="mt-6 font-display text-2xl font-bold text-brand-dark">免責事項・広告について</h1>
+      <h1 className="mt-8 font-display text-3xl font-light text-ink">免責事項・広告について</h1>
 
       <div className="prose prose-neutral mt-6 max-w-none">
         <h2>1. 掲載情報について</h2>

@@ -2,30 +2,26 @@ import { type ReactNode } from "react";
 
 type Tone = "point" | "info" | "warning" | "tip";
 
-const toneStyles: Record<Tone, { box: string; label: string; icon: string; title: string }> = {
+const toneStyles: Record<Tone, { accent: string; label: string; title: string }> = {
   point: {
-    box: "border-brand/30 bg-brand-light/60",
+    accent: "border-brand/50",
     label: "text-brand-dark",
-    icon: "🩺",
     title: "ポイント",
   },
   info: {
-    box: "border-sky-200 bg-sky-50",
+    accent: "border-sky-300",
     label: "text-sky-700",
-    icon: "📌",
     title: "メモ",
   },
   warning: {
-    box: "border-rose-200 bg-rose-50",
+    accent: "border-rose-300",
     label: "text-rose-700",
-    icon: "⚠️",
     title: "注意",
   },
   tip: {
-    box: "border-pink-200 bg-pink-50",
-    label: "text-pink-700",
-    icon: "💡",
-    title: "先輩のひとこと",
+    accent: "border-accent/60",
+    label: "text-ink/70",
+    title: "ひとこと",
   },
 };
 
@@ -43,12 +39,11 @@ export function Callout({
 }) {
   const s = toneStyles[tone];
   return (
-    <aside className={`not-prose my-6 rounded-2xl border ${s.box} p-4 sm:p-5`}>
-      <p className={`mb-1 flex items-center gap-2 font-bold ${s.label}`}>
-        <span aria-hidden>{s.icon}</span>
+    <aside className={`not-prose my-8 border-l-2 ${s.accent} pl-5`}>
+      <p className={`mb-2 text-[11px] font-medium uppercase tracking-[0.18em] ${s.label}`}>
         {title ?? s.title}
       </p>
-      <div className="space-y-2 text-[15px] leading-relaxed text-ink [&_a]:text-brand [&_a]:underline">
+      <div className="space-y-2 text-[15px] font-light leading-loose text-ink/80 [&_a]:text-brand-dark [&_a]:underline [&_a]:underline-offset-4">
         {children}
       </div>
     </aside>

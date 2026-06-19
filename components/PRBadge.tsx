@@ -5,16 +5,21 @@
 export function PRBadge({ variant = "inline" }: { variant?: "inline" | "banner" }) {
   if (variant === "banner") {
     return (
-      <div className="not-prose my-4 flex items-center gap-2 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-2.5 text-sm text-amber-800">
-        <span className="pill bg-amber-400 text-white">PR</span>
+      <div className="not-prose my-5 flex items-center gap-2.5 rounded-lg border border-amber-200 bg-amber-50/70 px-4 py-2.5 text-sm font-light text-amber-800">
+        <span className="inline-flex items-center rounded-full bg-amber-400 px-2.5 py-0.5 text-xs font-semibold text-white">
+          PR
+        </span>
         <span>
-          この記事は<strong>アフィリエイト広告（プロモーション）</strong>を含みます。
+          この記事は<strong className="font-medium">アフィリエイト広告（プロモーション）</strong>を含みます。
         </span>
       </div>
     );
   }
   return (
-    <span className="pill bg-amber-400 align-middle text-[10px] text-white" aria-label="広告（PR）">
+    <span
+      className="inline-flex items-center rounded-full bg-amber-400 px-2 py-0.5 align-middle text-[10px] font-semibold text-white"
+      aria-label="広告（PR）"
+    >
       PR
     </span>
   );

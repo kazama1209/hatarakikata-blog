@@ -18,33 +18,35 @@ export function Illust({
   tone?: "teal" | "pink" | "warm" | "violet";
 }) {
   const tones: Record<string, string> = {
-    teal: "from-brand-light to-emerald-50",
-    pink: "from-rose-50 to-amber-50",
-    warm: "from-amber-50 to-orange-50",
-    violet: "from-sky-50 to-violet-50",
+    teal: "bg-brand-light/30",
+    pink: "bg-rose-50/50",
+    warm: "bg-amber-50/50",
+    violet: "bg-sky-50/50",
   };
 
   if (align !== "center") {
-    const float = align === "right" ? "sm:float-right sm:ml-5" : "sm:float-left sm:mr-5";
+    const float = align === "right" ? "sm:float-right sm:ml-6" : "sm:float-left sm:mr-6";
     return (
-      <figure className={`not-prose my-4 w-full sm:w-56 ${float} mb-4`}>
-        <div className={`flex aspect-[4/3] items-center justify-center rounded-2xl bg-gradient-to-br ${tones[tone]} p-3 ring-1 ring-stone-200`}>
+      <figure className={`not-prose my-5 w-full sm:w-56 ${float} mb-5`}>
+        <div className={`flex aspect-[4/3] items-center justify-center rounded-xl ${tones[tone]} p-4`}>
           <Illustration name={name} title={caption} className="h-full w-full" />
         </div>
-        {caption && <figcaption className="mt-2 text-center text-xs text-gray-500">{caption}</figcaption>}
+        {caption && (
+          <figcaption className="mt-3 text-center text-xs font-light text-ink/45">{caption}</figcaption>
+        )}
       </figure>
     );
   }
 
   return (
-    <figure className="not-prose my-7">
-      <div className={`flex items-center justify-center rounded-3xl bg-gradient-to-br ${tones[tone]} p-6 ring-1 ring-stone-200`}>
+    <figure className="not-prose my-10">
+      <div className={`flex items-center justify-center rounded-xl ${tones[tone]} p-8`}>
         <div className="aspect-[5/3] w-full max-w-sm">
           <Illustration name={name} title={caption} className="h-full w-full" />
         </div>
       </div>
       {caption && (
-        <figcaption className="mt-3 text-center text-sm text-gray-500">{caption}</figcaption>
+        <figcaption className="mt-4 text-center text-sm font-light text-ink/45">{caption}</figcaption>
       )}
     </figure>
   );

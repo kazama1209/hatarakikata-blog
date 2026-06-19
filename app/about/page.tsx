@@ -17,17 +17,17 @@ export default function AboutPage() {
     <Container size="prose" className="py-8">
       <Breadcrumb crumbs={[{ name: "ホーム", url: "/" }, { name: "運営者情報", url: "/about" }]} />
 
-      <div className="mt-6 flex items-center gap-4 rounded-3xl bg-gradient-to-br from-brand-light to-amber-50 p-6">
-        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl bg-white/80 p-2 shadow-sm sm:h-24 sm:w-24">
+      <div className="mt-8 flex items-center gap-5 border-y border-[var(--hairline)] py-8">
+        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-xl bg-brand-light/40 p-2.5 sm:h-24 sm:w-24">
           <Illustration name="heart-hands" title="運営者" className="h-full w-full" />
         </div>
         <div>
-          <div className="mb-1 flex items-center gap-2">
+          <div className="mb-2 flex items-center gap-2">
             <Logo className="h-7 w-7" />
-            <span className="font-display font-bold text-brand-dark">{siteConfig.name}</span>
+            <span className="font-display text-sm font-normal tracking-wide text-ink">{siteConfig.name}</span>
           </div>
-          <h1 className="font-display text-2xl font-bold text-brand-dark">運営者情報</h1>
-          <p className="text-sm text-gray-400">About us</p>
+          <h1 className="font-display text-2xl font-light text-ink">運営者情報</h1>
+          <p className="eyebrow mt-1">About us</p>
         </div>
       </div>
 

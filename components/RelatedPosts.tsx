@@ -5,11 +5,11 @@ import { PostCard } from "./PostCard";
 export function RelatedPosts({ posts }: { posts: PostMeta[] }) {
   if (!posts.length) return null;
   return (
-    <section aria-labelledby="related-heading" className="not-prose mt-14">
-      <h2 id="related-heading" className="heading-deco mb-6 text-xl font-bold text-brand-dark">
-        あわせて読みたい
-      </h2>
-      <div className="grid auto-rows-fr gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <section aria-labelledby="related-heading" className="not-prose mt-20 border-t border-[var(--hairline)] pt-14">
+      <p id="related-heading" className="eyebrow mb-10">
+        Related
+      </p>
+      <div className="grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
           <PostCard key={p.slug} post={p} />
         ))}

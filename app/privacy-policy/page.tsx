@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
           { name: "プライバシーポリシー", url: "/privacy-policy" },
         ]}
       />
-      <h1 className="mt-6 font-display text-2xl font-bold text-brand-dark">プライバシーポリシー</h1>
+      <h1 className="mt-8 font-display text-3xl font-light text-ink">プライバシーポリシー</h1>
 
       <div className="prose prose-neutral mt-6 max-w-none">
         <p>

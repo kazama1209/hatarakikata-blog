@@ -76,30 +76,31 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <Breadcrumb crumbs={crumbs} />
       </Container>
 
-      {/* 記事ヘッダー */}
-      <Container size="prose" className="pt-5">
+      {/* 記事ヘッダー：狭い版面・装飾なし */}
+      <Container size="prose" className="pt-8">
         <header className="not-prose">
-          <div className="mb-3 flex flex-wrap items-center gap-2">
+          <div className="mb-5 flex flex-wrap items-center gap-3 text-[11px] uppercase tracking-[0.18em] text-brand-dark/70">
             <CategoryPill category={fm.category} />
             {fm.isPR && <PRBadge />}
           </div>
-          <h1 className="font-display text-2xl font-bold leading-snug text-ink sm:text-[28px]">
+          <h1 className="font-display text-[26px] font-light leading-[1.5] tracking-tight text-ink sm:text-[32px]">
             {fm.title}
           </h1>
-          <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-400">
-            <time dateTime={toDateOnly(fm.date)}>公開: {formatDateJa(fm.date)}</time>
+          <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs font-light tracking-wide text-ink/40">
+            <time dateTime={toDateOnly(fm.date)}>公開 {formatDateJa(fm.date)}</time>
             {fm.updated && fm.updated !== fm.date && (
-              <time dateTime={toDateOnly(fm.updated)}>更新: {formatDateJa(fm.updated)}</time>
+              <time dateTime={toDateOnly(fm.updated)}>更新 {formatDateJa(fm.updated)}</time>
             )}
-            <span>📖 約{post.readingMinutes}分</span>
+            <span>約{post.readingMinutes}分</span>
           </div>
-          <p className="mt-4 rounded-2xl bg-white/70 p-4 text-[15px] leading-relaxed text-gray-600 ring-1 ring-stone-200">
+          {/* リード段落（ボックス廃止） */}
+          <p className="mt-7 border-l border-brand/40 pl-5 text-[15px] font-light leading-loose text-ink/65">
             {fm.description}
           </p>
         </header>
 
         {/* ヒーローカバー画像（記事ごとに固有） */}
-        <div className="not-prose mt-6 overflow-hidden rounded-3xl shadow-sm ring-1 ring-stone-200">
+        <div className="not-prose mt-8 overflow-hidden rounded-xl">
           <CoverImage slug={fm.slug} category={fm.category} variant="hero" showLabel={false} priority />
         </div>
         {(() => {
@@ -132,11 +133,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
         {/* タグ */}
         {fm.tags?.length ? (
-          <div className="not-prose mt-10 flex flex-wrap gap-2">
+          <div className="not-prose mt-12 flex flex-wrap gap-x-4 gap-y-2 text-xs font-light tracking-wide text-ink/50">
             {fm.tags.map((t) => (
-              <span key={t} className="pill bg-brand-light text-brand-dark">
-                #{t}
-              </span>
+              <span key={t}>#{t}</span>
             ))}
           </div>
         ) : null}
@@ -144,9 +143,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <Sources sources={fm.sources} />
         <ShareButtons slug={fm.slug} title={fm.title} />
 
-        <div className="not-prose mt-8 text-center">
+        <div className="not-prose mt-10">
           {category && (
-            <Link href={`/category/${category.slug}`} className="btn-soft">
+            <Link href={`/category/${category.slug}`} className="nav-underline text-sm">
               ← {category.name}の記事一覧へ
             </Link>
           )}

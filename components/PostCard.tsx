@@ -2,16 +2,21 @@ import Link from "next/link";
 import { type PostMeta } from "@/lib/posts";
 import { PRBadge } from "./PRBadge";
 import { CoverImage } from "./CoverImage";
+import { getCategory } from "@/lib/categories";
 import { formatDateJa, toDateOnly } from "@/lib/format";
 
-/** 記事カード（カバー画像付き）。トップ・カテゴリ・関連記事で使用。 */
+/**
+ * 記事カード（ボーダーレス・キャプション型）。
+ * 角丸画像＋その下にカテゴリ小ラベル・タイトル・日付。枠線/影なし。
+ */
 export function PostCard({ post }: { post: PostMeta }) {
+  const cat = getCategory(post.category);
   return (
-    <article className="card card-hover group flex h-full flex-col overflow-hidden">
-      <Link href={`/blog/${post.slug}`} className="flex h-full flex-col">
-        <div className="relative overflow-hidden">
-          <div className="transition-transform duration-500 group-hover:scale-[1.04]">
-            <CoverImage slug={post.slug} category={post.category} />
+    <article className="group">
+      <Link href={`/blog/${post.slug}`} className="block">
+        <div className="relative overflow-hidden rounded-xl">
+          <div className="transition-transform duration-700 group-hover:scale-[1.03]">
+            <CoverImage slug={post.slug} category={post.category} showLabel={false} />
           </div>
           {post.isPR && (
             <span className="absolute right-3 top-3">
@@ -19,21 +24,20 @@ export function PostCard({ post }: { post: PostMeta }) {
             </span>
           )}
         </div>
-        <div className="flex flex-1 flex-col gap-3 p-5 sm:p-6">
-          <div className="flex items-center gap-2 text-xs text-gray-400">
-            <time dateTime={toDateOnly(post.date)}>{formatDateJa(post.date)}</time>
-            <span aria-hidden>·</span>
-            <span>📖 約{post.readingMinutes}分</span>
+        <div className="px-1 pt-4">
+          <div className="flex items-center gap-2.5 text-[11px] uppercase tracking-[0.18em] text-brand-dark/70">
+            {cat && <span>{cat.shortName}</span>}
+            <span aria-hidden className="text-ink/20">/</span>
+            <time dateTime={toDateOnly(post.date)} className="font-light normal-case tracking-normal text-ink/45">
+              {formatDateJa(post.date)}
+            </time>
           </div>
-          <h3 className="line-clamp-2 min-h-[3.25rem] text-lg font-bold leading-snug text-ink transition-colors group-hover:text-brand">
+          <h3 className="mt-2 text-[17px] font-normal leading-relaxed text-ink transition-colors group-hover:text-brand-dark">
             {post.title}
           </h3>
-          <p className="line-clamp-3 text-sm leading-relaxed text-gray-600">
+          <p className="mt-1.5 line-clamp-2 text-sm font-light leading-relaxed text-ink/55">
             {post.description}
           </p>
-          <span className="mt-auto pt-1 text-xs font-semibold text-brand opacity-0 transition-opacity group-hover:opacity-100">
-            続きを読む →
-          </span>
         </div>
       </Link>
     </article>

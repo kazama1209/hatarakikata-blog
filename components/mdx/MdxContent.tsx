@@ -11,7 +11,7 @@ function SmartLink({ href = "", children }: { href?: string; children?: ReactNod
   const isInternal = href.startsWith("/") || href.startsWith("#");
   if (isInternal) {
     return (
-      <Link href={href} className="font-medium text-brand link-underline">
+      <Link href={href} className="font-normal text-brand-dark underline decoration-brand/30 underline-offset-4 transition-colors hover:decoration-brand">
         {children}
       </Link>
     );
@@ -21,7 +21,7 @@ function SmartLink({ href = "", children }: { href?: string; children?: ReactNod
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="font-medium text-brand link-underline"
+      className="font-normal text-brand-dark underline decoration-brand/30 underline-offset-4 transition-colors hover:decoration-brand"
     >
       {children}
     </a>

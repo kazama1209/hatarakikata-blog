@@ -33,10 +33,10 @@ export function ContactForm({ formId }: { formId: string }) {
 
   if (status === "success") {
     return (
-      <div className="card p-8 text-center">
-        <p className="text-3xl">🌸</p>
-        <h2 className="mt-3 font-display text-xl font-bold text-brand-dark">送信しました</h2>
-        <p className="mt-2 text-sm text-gray-600">
+      <div className="border-y border-[var(--hairline)] p-10 text-center">
+        <p className="eyebrow mb-4">Thank you</p>
+        <h2 className="font-display text-xl font-light text-ink">送信しました</h2>
+        <p className="mt-3 text-sm font-light leading-loose text-ink/55">
           お問い合わせありがとうございます。内容を確認のうえ、必要に応じてご連絡いたします。
         </p>
       </div>
@@ -44,9 +44,9 @@ export function ContactForm({ formId }: { formId: string }) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="card space-y-5 p-6 sm:p-8">
+    <form onSubmit={handleSubmit} className="space-y-6 border-t border-[var(--hairline)] pt-8">
       <div>
-        <label htmlFor="name" className="mb-1.5 block text-sm font-semibold text-gray-700">
+        <label htmlFor="name" className="mb-2 block text-xs font-normal uppercase tracking-[0.14em] text-ink/60">
           お名前（ニックネーム可）
         </label>
         <input
@@ -55,12 +55,12 @@ export function ContactForm({ formId }: { formId: string }) {
           type="text"
           required
           autoComplete="name"
-          className="w-full rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm outline-none ring-brand/30 focus:border-brand focus:ring-2"
+          className="w-full rounded-md border border-[var(--hairline)] bg-white/60 px-4 py-2.5 text-sm font-light outline-none transition-colors focus:border-brand"
           placeholder="みき"
         />
       </div>
       <div>
-        <label htmlFor="email" className="mb-1.5 block text-sm font-semibold text-gray-700">
+        <label htmlFor="email" className="mb-2 block text-xs font-normal uppercase tracking-[0.14em] text-ink/60">
           メールアドレス
         </label>
         <input
@@ -69,12 +69,12 @@ export function ContactForm({ formId }: { formId: string }) {
           type="email"
           required
           autoComplete="email"
-          className="w-full rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm outline-none ring-brand/30 focus:border-brand focus:ring-2"
+          className="w-full rounded-md border border-[var(--hairline)] bg-white/60 px-4 py-2.5 text-sm font-light outline-none transition-colors focus:border-brand"
           placeholder="you@example.com"
         />
       </div>
       <div>
-        <label htmlFor="message" className="mb-1.5 block text-sm font-semibold text-gray-700">
+        <label htmlFor="message" className="mb-2 block text-xs font-normal uppercase tracking-[0.14em] text-ink/60">
           お問い合わせ内容
         </label>
         <textarea
@@ -82,21 +82,25 @@ export function ContactForm({ formId }: { formId: string }) {
           name="message"
           required
           rows={6}
-          className="w-full rounded-xl border border-stone-200 bg-white px-4 py-2.5 text-sm outline-none ring-brand/30 focus:border-brand focus:ring-2"
+          className="w-full rounded-md border border-[var(--hairline)] bg-white/60 px-4 py-2.5 text-sm font-light outline-none transition-colors focus:border-brand"
           placeholder="ご意見・ご指摘・掲載に関するご相談など"
         />
       </div>
 
       {status === "error" && (
-        <p className="rounded-xl bg-rose-50 px-4 py-2.5 text-sm text-rose-700">
+        <p className="rounded-md border border-rose-200 bg-rose-50/70 px-4 py-2.5 text-sm font-light text-rose-700">
           送信に失敗しました。お手数ですが時間をおいて再度お試しください。
         </p>
       )}
 
-      <button type="submit" disabled={status === "submitting"} className="btn-primary w-full disabled:opacity-60">
+      <button
+        type="submit"
+        disabled={status === "submitting"}
+        className="btn-line w-full disabled:opacity-60"
+      >
         {status === "submitting" ? "送信中…" : "送信する"}
       </button>
-      <p className="text-center text-xs text-gray-400">
+      <p className="text-center text-xs font-light text-ink/40">
         送信いただいた情報はお問い合わせ対応にのみ利用します（
         <a href="/privacy-policy" className="underline">プライバシーポリシー</a>）。
       </p>

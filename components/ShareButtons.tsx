@@ -6,13 +6,13 @@ export function ShareButtons({ slug, title }: { slug: string; title: string }) {
   const text = encodeURIComponent(`${title}｜${siteConfig.name}`);
   const enc = encodeURIComponent(url);
   return (
-    <div className="not-prose mt-10 flex flex-wrap items-center gap-3 border-t border-stone-200 pt-6">
-      <span className="text-sm font-semibold text-gray-500">この記事をシェア</span>
+    <div className="not-prose mt-12 flex flex-wrap items-center gap-x-7 gap-y-3 border-t border-[var(--hairline)] pt-7">
+      <span className="eyebrow">Share</span>
       <a
         href={`https://twitter.com/intent/tweet?text=${text}&url=${enc}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="btn-soft text-sm"
+        className="nav-underline text-sm"
       >
         Xでシェア
       </a>
@@ -20,7 +20,7 @@ export function ShareButtons({ slug, title }: { slug: string; title: string }) {
         href={`https://social-plugins.line.me/lineit/share?url=${enc}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="btn-soft text-sm"
+        className="nav-underline text-sm"
       >
         LINEで送る
       </a>

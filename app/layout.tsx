@@ -11,14 +11,14 @@ import { organizationJsonLd, websiteJsonLd } from "@/lib/jsonld";
 
 const sans = Noto_Sans_JP({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["300", "400", "500"],
   variable: "--font-sans",
   display: "swap",
 });
 
 const display = Zen_Kaku_Gothic_New({
   subsets: ["latin"],
-  weight: ["500", "700"],
+  weight: ["300", "400", "500"],
   variable: "--font-display",
   display: "swap",
 });
