@@ -20,14 +20,6 @@ export function Footer() {
             <p className="mt-5 max-w-xs text-sm font-light leading-loose text-ink/50">
               接客・立ち仕事に疲れた20代女性へ。事務・在宅・土日休みの仕事へ働き方を変えるための情報を、やさしく具体的に。
             </p>
-            <a
-              href={siteConfig.social.tiktok}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="nav-underline mt-5 inline-block text-sm"
-            >
-              TikTok {siteConfig.social.tiktokHandle}
-            </a>
           </div>
 
           {/* カテゴリ */}

@@ -37,12 +37,8 @@ export default function AboutPage() {
           <strong>{siteConfig.author}</strong>
         </p>
         <p>
-          本サイト「{siteConfig.name}」は、20代女性の「働き方を変える」を応援するSNS（TikTok
-          <a href={siteConfig.social.tiktok} target="_blank" rel="noopener noreferrer">
-            {siteConfig.social.tiktokHandle}
-          </a>
-          ）を母体に運営している、働き方・転職の情報メディアです。接客・販売・立ち仕事で消耗した経験から、
-          事務をはじめ「自分に合う働き方」へ移るための情報を発信しています。
+          本サイト「{siteConfig.name}」は、20代女性の「働き方を変える」を応援する、働き方・転職の情報メディアです。
+          接客・販売・立ち仕事で消耗した経験から、事務をはじめ「自分に合う働き方」へ移るための情報を発信しています。
         </p>
 
         <h2>運営の目的・方針</h2>
