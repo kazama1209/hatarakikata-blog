@@ -14,7 +14,7 @@ export default function NotFound() {
       <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
         <Link href="/" className="nav-underline text-sm">トップへ戻る</Link>
         <span aria-hidden className="hidden h-px w-10 bg-ink/20 sm:block" />
-        <Link href="/category/shokushu" className="nav-underline text-sm">事務の記事を見る</Link>
+        <Link href="/category/shokushu" className="nav-underline text-sm">働き方の選択肢を見る</Link>
       </div>
     </Container>
   );

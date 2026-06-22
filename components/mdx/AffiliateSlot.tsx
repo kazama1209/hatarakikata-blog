@@ -3,10 +3,10 @@ import { PRBadge } from "../PRBadge";
 /**
  * 転職アフィのリンク置き場。提携承認前は「リンク枠だけ」を用意する（spec準拠）。
  * 提携後は env もしくはこのコンポーネントを編集して実リンクに差し替える。
- * MDXから <AffiliateSlot service="20代・未経験向けの転職エージェント" /> で使う。
+ * MDXから <AffiliateSlot service="自分に合う転職エージェント" /> で使う。
  */
 export function AffiliateSlot({
-  service = "20代・未経験向けの転職エージェント",
+  service = "自分に合う転職エージェント",
   note,
 }: {
   service?: string;

@@ -18,7 +18,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-5 max-w-xs text-sm font-light leading-loose text-ink/50">
-              接客・立ち仕事に疲れた20代女性へ。事務・在宅・土日休みの仕事へ働き方を変えるための情報を、やさしく具体的に。
+              今の働き方に疲れた人へ。在宅・土日休み・年収アップなど、自分に合う働き方へ変えるための情報を、やさしく具体的に。
             </p>
           </div>
 
