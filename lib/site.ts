@@ -7,8 +7,8 @@ export const siteConfig = {
   // 末尾スラッシュなし。未設定時はローカル開発URLにフォールバック。
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://hatarakikata-note.example.com").replace(/\/$/, ""),
   description:
-    "接客・販売・立ち仕事に疲れた20代女性へ。事務・在宅・土日休みの仕事へ働き方を変えるための、求人の見分け方・志望動機や面接の例文・エージェントの使い方を、やさしく具体的にまとめた働き方メディアです。",
-  tagline: "接客・立ち仕事から、わたしに合う仕事へ。",
+    "今の働き方に疲れたあなたへ。自分に合う仕事へ転職するための、求人の見分け方・志望動機や面接の例文・エージェントの使い方を、やさしく具体的にまとめた転職メディアです。",
+  tagline: "今の働き方から、自分に合う仕事へ。",
   author: "あしたの働き方ノート 運営",
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@example.com",
   formspreeId: process.env.NEXT_PUBLIC_FORMSPREE_ID ?? "",

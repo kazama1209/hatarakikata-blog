@@ -17,19 +17,19 @@ export default function HomePage() {
         <div className="max-w-3xl py-24 sm:py-32">
           <p className="eyebrow mb-8">A note on changing how we work</p>
           <h1 className="font-display text-4xl font-light leading-[1.35] tracking-tight text-ink sm:text-6xl sm:leading-[1.3]">
-            接客・立ち仕事から、
+            今の働き方から、
             <br />
-            わたしに合う
+            自分に合う
             <span className="text-brand-dark">働き方</span>へ。
           </h1>
           <p className="mt-10 max-w-xl text-[15px] font-light leading-loose text-ink/55">
-            土日休み・在宅・事務という選択肢。求人の見分け方から志望動機の例文まで、
-            20代女性の「働き方を変える」を、静かに、具体的に。
+            在宅・土日休み・年収アップ——働き方の選択肢から、求人の見分け方や志望動機の例文まで。
+            「働き方を変える」を、静かに、具体的に。
           </p>
           {/* アクセントは細い線1本程度 */}
           <div className="mt-12 flex items-center gap-8">
             <Link href="/category/shokushu" className="nav-underline text-sm">
-              事務という選択肢を見る
+              働き方の選択肢を見る
             </Link>
             <span aria-hidden className="h-px w-12 bg-ink/20" />
             <Link href="/category/tsurai" className="nav-underline text-sm">
@@ -89,7 +89,7 @@ export default function HomePage() {
             </h2>
             <p className="mx-auto mt-5 max-w-md text-sm font-light leading-loose text-ink/55">
               辞める・辞めないの前に、まずは知ること。
-              事務という選択肢や会社の見分け方を、やさしく具体的にまとめています。
+              働き方の選択肢や会社の見分け方を、やさしく具体的にまとめています。
             </p>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
               <Link href="/category/kaisha" className="nav-underline text-sm">

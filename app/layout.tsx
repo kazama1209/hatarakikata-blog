@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: `%s｜${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["事務 転職", "未経験 事務", "接客 辞めたい", "20代 女性 転職", "土日休み 仕事", "在宅 事務", "志望動機 例文"],
+  keywords: ["働き方を変える", "転職", "未経験 転職", "在宅 リモートワーク", "年収アップ 転職", "ハイクラス転職", "転職エージェント", "土日休み 仕事", "志望動機 例文"],
   authors: [{ name: siteConfig.author }],
   creator: siteConfig.author,
   alternates: { canonical: "/" },
