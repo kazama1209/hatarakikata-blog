@@ -55,6 +55,13 @@
   .nav-underline:hover::after {
     @apply w-full;
   }
+  /* 現在地：下線を常時フル幅・文字を濃く */
+  .nav-underline.is-active {
+    @apply text-ink;
+  }
+  .nav-underline.is-active::after {
+    @apply w-full;
+  }
 
   /* 控えめなアウトラインボタン（塗りつぶし・影なし） */
   .btn-line {

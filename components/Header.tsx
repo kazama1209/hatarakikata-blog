@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { siteConfig } from "@/lib/site";
 import { categories } from "@/lib/categories";
@@ -14,6 +15,9 @@ const navLinks = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const isActive = (href: string) =>
+    pathname === href || pathname.startsWith(`${href}/`);
   return (
     <header className="sticky top-0 z-50 bg-[var(--bg)]/90 backdrop-blur-sm">
       <div className="mx-auto flex h-20 max-w-6xl items-center justify-between gap-6 px-6 sm:px-10">
@@ -36,7 +40,12 @@ export function Header() {
         {/* デスクトップナビ：テキスト＋hover下線 */}
         <nav className="hidden items-center gap-7 lg:flex">
           {navLinks.map((l) => (
-            <Link key={l.href} href={l.href} className="nav-underline text-sm">
+            <Link
+              key={l.href}
+              href={l.href}
+              aria-current={isActive(l.href) ? "page" : undefined}
+              className={`nav-underline text-sm${isActive(l.href) ? " is-active" : ""}`}
+            >
               {l.label}
             </Link>
           ))}
@@ -63,7 +72,12 @@ export function Header() {
                 <Link
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block py-3 text-sm font-light tracking-wide text-ink/80"
+                  aria-current={isActive(l.href) ? "page" : undefined}
+                  className={`block py-3 text-sm tracking-wide ${
+                    isActive(l.href)
+                      ? "font-normal text-ink"
+                      : "font-light text-ink/80"
+                  }`}
                 >
                   {l.label}
                 </Link>
