@@ -1,324 +1,324 @@
 {
-  "customer-service-quit-signs": {
-    "photographer": "Mikael Blomkvist",
-    "photographerUrl": "https://www.pexels.com/@mikael-blomkvist",
-    "url": "https://www.pexels.com/photo/a-woman-in-a-plaid-shirt-sitting-8961615/",
-    "alt": "An African American woman in a plaid shirt sits, appearing tired at a construction site.",
-    "source": "Pexels"
-  },
   "sales-staff-aruaru": {
-    "photographer": "Ron Lach",
-    "photographerUrl": "https://www.pexels.com/@ron-lach",
-    "url": "https://www.pexels.com/photo/a-woman-holding-clothes-with-hangers-8387808/",
-    "alt": "Woman shopping in boutique holding clothes for fitting in a modern fashion store.",
-    "source": "Pexels"
-  },
-  "quit-customer-service-glad": {
-    "photographer": "Andrea Piacquadio",
-    "photographerUrl": "https://www.pexels.com/@olly",
-    "url": "https://www.pexels.com/photo/woman-in-black-turtleneck-sweater-holding-a-croissant-3906941/",
-    "alt": "Woman enjoying a break with a croissant in a cozy indoor cafe setting.",
-    "source": "Pexels"
-  },
-  "weekend-off-twenties": {
-    "photographer": "Sora Shimazaki",
-    "photographerUrl": "https://www.pexels.com/@sora-shimazaki",
-    "url": "https://www.pexels.com/photo/relaxed-woman-with-smartphone-sitting-on-couch-5938585/",
-    "alt": "Young African American female in bathrobe sitting on bed and browsing smartphone while resting in cozy room",
-    "source": "Pexels"
-  },
-  "sunday-blues": {
-    "photographer": "cottonbro studio",
-    "photographerUrl": "https://www.pexels.com/@cottonbro",
-    "url": "https://www.pexels.com/photo/a-tired-woman-sitting-near-the-window-6951882/",
-    "alt": "A woman sits by a window at night, exuding a vibe of tranquility and introspection.",
-    "source": "Pexels"
-  },
-  "office-job-no-pc": {
-    "photographer": "Andrea Piacquadio",
-    "photographerUrl": "https://www.pexels.com/@olly",
-    "url": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-using-a-laptop-3784295/",
-    "alt": "A professional woman concentrating on her laptop at a modern office desk.",
-    "source": "Pexels"
-  },
-  "office-job-types": {
-    "photographer": "Kampus Production",
-    "photographerUrl": "https://www.pexels.com/@kampus",
-    "url": "https://www.pexels.com/photo/documents-in-a-binder-on-a-work-desk-8353764/",
-    "alt": "A clean and organized office desk with documents, a computer, and chair in a modern workspace.",
-    "source": "Pexels"
-  },
-  "office-job-search-noexp": {
-    "photographer": "Atlantic Ambience",
-    "photographerUrl": "https://www.pexels.com/@freestockpro",
-    "url": "https://www.pexels.com/photo/woman-using-a-laptop-at-a-table-12932587/",
-    "alt": "A woman working on a laptop from home, focusing on digital tasks and communication.",
-    "source": "Pexels"
-  },
-  "service-skills-office": {
-    "photographer": "Kampus Production",
-    "photographerUrl": "https://www.pexels.com/@kampus",
-    "url": "https://www.pexels.com/photo/woman-with-headphones-on-working-on-a-computer-8204389/",
-    "alt": "Two call center employees working with headsets in a modern office setting.",
-    "source": "Pexels"
-  },
-  "temp-to-perm": {
-    "photographer": "Felicity Tai",
-    "photographerUrl": "https://www.pexels.com/@felicity-tai",
-    "url": "https://www.pexels.com/photo/side-view-of-a-woman-using-laptop-7964513/",
-    "alt": "Two professionals working diligently on laptops in a modern office setup, capturing productivity and teamwork.",
-    "source": "Pexels"
-  },
-  "motivation-letter-examples": {
-    "photographer": "Sora Shimazaki",
-    "photographerUrl": "https://www.pexels.com/@sora-shimazaki",
-    "url": "https://www.pexels.com/photo/focused-woman-writing-in-clipboard-while-hiring-candidate-5668869/",
-    "alt": "Crop young female unemployed job seeker filling questionnaire sitting at table during interview in office",
-    "source": "Pexels"
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "しんどい職場あるあるのイメージ画像",
+    "source": "AI生成（Gemini）"
   },
   "office-interview-questions": {
-    "photographer": "Edmond Dantès",
-    "photographerUrl": "https://www.pexels.com/@edmond-dantes",
-    "url": "https://www.pexels.com/photo/woman-in-brown-blazer-seated-beside-table-4342496/",
-    "alt": "Young woman attending a job interview in a modern office, showcasing confidence and professionalism.",
-    "source": "Pexels"
-  },
-  "self-pr-examples": {
-    "photographer": "George Milton",
-    "photographerUrl": "https://www.pexels.com/@george-milton",
-    "url": "https://www.pexels.com/photo/positive-woman-writing-in-notebook-and-watching-laptop-6953964/",
-    "alt": "Focused female freelancer with wavy hair writing notes in planner while sitting at table and working on netbook",
-    "source": "Pexels"
-  },
-  "smooth-resignation": {
-    "photographer": "Vlada Karpovich",
-    "photographerUrl": "https://www.pexels.com/@vlada-karpovich",
-    "url": "https://www.pexels.com/photo/two-women-having-a-conversation-7433930/",
-    "alt": "Two businesswomen engage in a conversation during a professional meeting in a modern office.",
-    "source": "Pexels"
-  },
-  "interview-thankyou-email": {
-    "photographer": "cottonbro studio",
-    "photographerUrl": "https://www.pexels.com/@cottonbro",
-    "url": "https://www.pexels.com/photo/woman-using-a-laptop-7439124/",
-    "alt": "A businesswoman typing on a laptop in an office setting, using Slack for communication.",
-    "source": "Pexels"
-  },
-  "white-company-jobposting": {
-    "photographer": "RDNE Stock project",
-    "photographerUrl": "https://www.pexels.com/@rdne",
-    "url": "https://www.pexels.com/photo/a-woman-reading-documents-5915207/",
-    "alt": "Asian woman intently working on documents at her laptop in a modern office setting.",
-    "source": "Pexels"
-  },
-  "jobposting-red-words": {
-    "photographer": "Vlad Deep",
-    "photographerUrl": "https://www.pexels.com/@vlad-deep-29415806",
-    "url": "https://www.pexels.com/photo/cup-of-coffee-and-magnifying-glass-on-a-desk-6939518/",
-    "alt": "A business workspace setup featuring documents, coffee, and financial elements.",
-    "source": "Pexels"
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "面接で必ず聞かれる質問＆答え方のイメージ画像",
+    "source": "AI生成（Gemini）"
   },
   "women-friendly-company": {
-    "photographer": "Theo  Decker",
-    "photographerUrl": "https://www.pexels.com/@theo-decker",
-    "url": "https://www.pexels.com/photo/two-women-having-a-meeting-in-the-office-5945801/",
-    "alt": "Two diverse colleagues share ideas in a modern office setting during a collaborative meeting.",
-    "source": "Pexels"
-  },
-  "fixed-overtime-pay": {
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "url": "https://www.pexels.com/photo/dollar-bills-near-the-red-calculator-7680697/",
-    "alt": "Close-up of notebooks, US dollars, and a calculator on a desk.",
-    "source": "Pexels"
-  },
-  "remote-office-company": {
-    "photographer": "Ron Lach",
-    "photographerUrl": "https://www.pexels.com/@ron-lach",
-    "url": "https://www.pexels.com/photo/a-woman-working-at-home-8400605/",
-    "alt": "Woman working remotely at home office on a design project with laptop and color swatches.",
-    "source": "Pexels"
-  },
-  "career-change-flow": {
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "url": "https://www.pexels.com/photo/person-writing-on-a-planner-4968703/",
-    "alt": "A woman writes in a planner on a marble table, surrounded by swatches. Creative and organized workspace.",
-    "source": "Pexels"
-  },
-  "agent-how-to-use": {
-    "photographer": "Sora Shimazaki",
-    "photographerUrl": "https://www.pexels.com/@sora-shimazaki",
-    "url": "https://www.pexels.com/photo/serious-young-woman-reading-report-to-colleague-in-contemporary-workspace-5668853/",
-    "alt": "From above of young female worker wearing modern coat analyzing details of project with colleague while sitting together at wooden desk with laptop and documents",
-    "source": "Pexels"
-  },
-  "job-hunt-while-employed": {
-    "photographer": "Abdel Rahman Abu Baker",
-    "photographerUrl": "https://www.pexels.com/@abdel-rahman-abu-baker-958112",
-    "url": "https://www.pexels.com/photo/woman-working-on-a-laptop-in-a-cafe-at-night-5617397/",
-    "alt": "Focused woman using laptop with headphones in a cozy café setting.",
-    "source": "Pexels"
-  },
-  "multiple-agents": {
-    "photographer": "George Milton",
-    "photographerUrl": "https://www.pexels.com/@george-milton",
-    "url": "https://www.pexels.com/photo/pensive-woman-taking-notes-at-table-with-laptop-and-cup-of-coffee-7034439/",
-    "alt": "Serious female working while writing in notebook and using netbook at table at home in daylight",
-    "source": "Pexels"
-  },
-  "decline-agent": {
-    "photographer": "Felicity Tai",
-    "photographerUrl": "https://www.pexels.com/@felicity-tai",
-    "url": "https://www.pexels.com/photo/woman-in-long-sleeves-talking-on-the-phone-7964504/",
-    "alt": "An east Asian woman expressing frustration during a phone call at the workplace.",
-    "source": "Pexels"
-  },
-  "after-office-change": {
-    "photographer": "Los Muertos Crew",
-    "photographerUrl": "https://www.pexels.com/@cristian-rojas",
-    "url": "https://www.pexels.com/photo/woman-smiling-while-using-her-smartphone-7616812/",
-    "alt": "A woman with red hair smiles while using a smartphone in a bright and cozy home office.",
-    "source": "Pexels"
-  },
-  "office-job-cons": {
-    "photographer": "cottonbro studio",
-    "photographerUrl": "https://www.pexels.com/@cottonbro",
-    "url": "https://www.pexels.com/photo/woman-in-white-dress-shirt-leaning-on-counter-top-8465081/",
-    "alt": "Asian woman in glasses rests her head on a counter with papers, showing signs of fatigue.",
-    "source": "Pexels"
-  },
-  "office-job-not-easy": {
-    "photographer": "ThisIsEngineering",
-    "photographerUrl": "https://www.pexels.com/@thisisengineering",
-    "url": "https://www.pexels.com/photo/woman-working-on-computer-3862375/",
-    "alt": "A professional woman concentrates on her computer screen in a busy office environment.",
-    "source": "Pexels"
-  },
-  "stress-gone-office": {
-    "photographer": "Mikhail Nilov",
-    "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
-    "url": "https://www.pexels.com/photo/smiling-woman-in-black-long-sleeve-shirt-holding-a-laptop-7584672/",
-    "alt": "Confident woman indoors holding a laptop and smiling warmly.",
-    "source": "Pexels"
-  },
-  "service-industry-turnover": {
-    "photographer": "Pixabay",
-    "photographerUrl": "https://www.pexels.com/@pixabay",
-    "url": "https://www.pexels.com/photo/selective-focus-photography-of-brown-wooden-chair-279768/",
-    "alt": "Warm, inviting restaurant interior featuring wooden tables and chairs. Perfect for dining settings.",
-    "source": "Pexels"
-  },
-  "skills-zero-office-pass": {
-    "photographer": "Blue Bird",
-    "photographerUrl": "https://www.pexels.com/@blue-bird",
-    "url": "https://www.pexels.com/photo/smiling-ethnic-woman-standing-near-glass-wall-7243204/",
-    "alt": "Side view of positive ethnic female with curly hair standing near window and looking up with interest",
-    "source": "Pexels"
-  },
-  "wedding-shift-cant-attend": {
-    "photographer": "Alex Green",
-    "photographerUrl": "https://www.pexels.com/@alex-green",
-    "url": "https://www.pexels.com/photo/tired-black-woman-browsing-mobile-phone-5699851/",
-    "alt": "Unhappy African American female standing on balcony while holding smartphone and looking at screen",
-    "source": "Pexels"
-  },
-  "customer-complaint-burnout": {
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "url": "https://www.pexels.com/photo/anxious-woman-having-phone-conversation-in-office-4467783/",
-    "alt": "Crop upset adult female manager in eyeglasses feeling sad while having phone discussion during work in office",
-    "source": "Pexels"
-  },
-  "office-job-steps": {
-    "photographer": "Tima Miroshnichenko",
-    "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
-    "url": "https://www.pexels.com/photo/close-up-photo-of-person-writing-on-a-paper-6170173/",
-    "alt": "Close-up of individual writing on a clipboard at a desk with office supplies.",
-    "source": "Pexels"
-  },
-  "office-qualifications": {
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "url": "https://www.pexels.com/photo/young-woman-studying-on-sofa-6632597/",
-    "alt": "Woman sitting cross-legged on sofa, studying with a textbook and laptop, creating a cozy learning environment.",
-    "source": "Pexels"
-  },
-  "general-office-day": {
-    "photographer": "cottonbro studio",
-    "photographerUrl": "https://www.pexels.com/@cottonbro",
-    "url": "https://www.pexels.com/photo/a-woman-looking-at-the-documents-6538577/",
-    "alt": "A stylish woman organizes documents in a modern office setting.",
-    "source": "Pexels"
-  },
-  "excel-for-office-real": {
-    "photographer": "RDNE Stock project",
-    "photographerUrl": "https://www.pexels.com/@rdne",
-    "url": "https://www.pexels.com/photo/person-using-black-and-gray-laptop-7947999/",
-    "alt": "Focused business analysis with charts and graphs on a laptop in a modern office setting.",
-    "source": "Pexels"
-  },
-  "resume-customer-service": {
-    "photographer": "Sora Shimazaki",
-    "photographerUrl": "https://www.pexels.com/@sora-shimazaki",
-    "url": "https://www.pexels.com/photo/focused-woman-writing-in-clipboard-while-hiring-candidate-5668869/",
-    "alt": "Crop young female unemployed job seeker filling questionnaire sitting at table during interview in office",
-    "source": "Pexels"
-  },
-  "why-quit-good-answer": {
-    "photographer": "Edmond Dantès",
-    "photographerUrl": "https://www.pexels.com/@edmond-dantes",
-    "url": "https://www.pexels.com/photo/woman-in-brown-blazer-seated-beside-table-4342496/",
-    "alt": "Young woman attending a job interview in a modern office, showcasing confidence and professionalism.",
-    "source": "Pexels"
-  },
-  "reverse-questions": {
-    "photographer": "Edmond Dantès",
-    "photographerUrl": "https://www.pexels.com/@edmond-dantes",
-    "url": "https://www.pexels.com/photo/woman-in-brown-blazer-seated-beside-table-4342496/",
-    "alt": "Young woman attending a job interview in a modern office, showcasing confidence and professionalism.",
-    "source": "Pexels"
-  },
-  "interview-danger-answers": {
-    "photographer": "Gustavo Fring",
-    "photographerUrl": "https://www.pexels.com/@gustavo-fring",
-    "url": "https://www.pexels.com/photo/woman-and-man-in-office-4895431/",
-    "alt": "Two professionals engage in a serious business meeting at a modern office setting.",
-    "source": "Pexels"
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "働きやすい会社の見つけ方のイメージ画像",
+    "source": "AI生成（Gemini）"
   },
   "skill-translation-table": {
-    "photographer": "Sora Shimazaki",
-    "photographerUrl": "https://www.pexels.com/@sora-shimazaki",
-    "url": "https://www.pexels.com/photo/crop-young-woman-working-in-office-5668489/",
-    "alt": "High angle of crop female in formal wear sitting at table and writing notes in planner during work day",
-    "source": "Pexels"
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "経験・スキルを「次の仕事の言葉」に翻訳する対応表のイメージ画像",
+    "source": "AI生成（Gemini）"
   },
-  "avoid-bad-company": {
-    "photographer": "Vlad Deep",
-    "photographerUrl": "https://www.pexels.com/@vlad-deep-29415806",
-    "url": "https://www.pexels.com/photo/cup-of-coffee-and-magnifying-glass-on-a-desk-6939518/",
-    "alt": "A business workspace setup featuring documents, coffee, and financial elements.",
-    "source": "Pexels"
+  "office-job-steps": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "未経験職種へ転職する手順のイメージ画像",
+    "source": "AI生成（Gemini）"
   },
-  "pass-fail-difference": {
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "url": "https://www.pexels.com/photo/woman-in-orange-button-up-shirt-sitting-in-front-of-woman-in-white-spaghetti-strap-shirt-8901175/",
-    "alt": "Two women having a discussion at a desk in a modern office setting, with laptops and office decor in the background.",
-    "source": "Pexels"
+  "temp-to-perm": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "派遣・紹介予定派遣から入る選択肢のイメージ画像",
+    "source": "AI生成（Gemini）"
   },
-  "agent-meeting-prep": {
-    "photographer": "Yan Krukau",
-    "photographerUrl": "https://www.pexels.com/@yankrukov",
-    "url": "https://www.pexels.com/photo/women-in-the-meeting-room-looking-at-the-brochure-8837764/",
-    "alt": "Two women engaged in a collaborative meeting at an office, emphasizing diversity and teamwork.",
-    "source": "Pexels"
+  "wedding-shift-cant-attend": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "休みが不規則で予定が立たないつらさのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "office-job-cons": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "転職して“正直なデメリット”ものイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "office-job-no-pc": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "副業という選択肢のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "interview-thankyou-email": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "面接後のお礼メール、そのまま使える例文のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "remote-office-company": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "在宅・リモートできる会社の見分け方のイメージ画像",
+    "source": "AI生成（Gemini）"
   },
   "stress-disappeared-office": {
-    "photographer": "Andrea Piacquadio",
-    "photographerUrl": "https://www.pexels.com/@olly",
-    "url": "https://www.pexels.com/photo/smiling-elegant-female-employee-with-feet-on-table-3791533/",
-    "alt": "Side view of cheerful female worker in formal style relaxing on office chair during break while sitting with feet on table and looking at camera",
-    "source": "Pexels"
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "働き方を変えてなくなった7つのストレスのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "service-skills-office": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "今の経験で年収を上げるのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "reverse-questions": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "面接の逆質問おすすめ＆NG例のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "multiple-agents": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "エージェントとスカウトの使い分けのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "office-job-not-easy": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "“転職すれば楽になる”は半分ウソのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "excel-for-office-real": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "在宅・リモートワークという選択肢のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "sunday-blues": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "日曜の夜が憂鬱な人へのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "customer-service-quit-signs": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "今の仕事、もう限界かも？辞めどきのサイン5つのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "fixed-overtime-pay": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "「みなし残業（固定残業代）」のここを見てのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "why-quit-good-answer": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "「なぜ辞めるの?」面接での答え方のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "white-company-jobposting": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "ホワイト求人票の見分け方のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "weekend-off-twenties": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "土日休めない働き方、一度見直していい理由のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "office-qualifications": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "転職に資格は必要？のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "office-job-search-noexp": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "未経験OK求人の探し方のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "pass-fail-difference": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "転職、受かる人と落ちる人の違いのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "avoid-bad-company": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "やめた方がいい会社のサインのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "quit-customer-service-glad": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "働き方を変えた人が口を揃える“やめてよかった”のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "jobposting-red-words": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "求人票の危険ワードのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "general-office-day": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "未経験から挑戦できる仕事いろいろのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "agent-how-to-use": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "転職エージェントの賢い使い方のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "customer-complaint-burnout": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "クレーム・理不尽な対応で心がすり減るのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "self-pr-examples": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "自己PR例文のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "motivation-letter-examples": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "志望動機の作り方＋例文のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "resume-customer-service": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "職務経歴書、何を書く？のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "service-industry-turnover": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "データで見る：離職率が高い業界・低い業界のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "after-office-change": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "働き方を変えたら変わったことのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "stress-gone-office": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "働き方を変えて“軽くなったこと”のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "interview-danger-answers": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "面接の「危険な回答」5選のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "smooth-resignation": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "円満退職の切り出し方・手順のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "career-change-flow": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "転職活動の全体の流れのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "agent-meeting-prep": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "転職エージェント面談、準備すると話が早いのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "skills-zero-office-pass": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "スキル0・自信0でも転職できる理由のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "job-hunt-while-employed": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "在職中に転職活動を進めるコツのイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "decline-agent": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "合わないエージェント・求人の上手な断り方のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "office-job-types": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "正社員・契約・派遣・フリーランスのイメージ画像",
+    "source": "AI生成（Gemini）"
   }
 }
