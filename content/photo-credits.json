@@ -341,5 +341,12 @@
     "url": "",
     "alt": "転職回数が多い人の面接のイメージ画像",
     "source": "AI生成（Gemini）"
+  },
+  "employment-type-differences": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "正社員・契約社員・派遣の違いのイメージ画像",
+    "source": "AI生成（Gemini）"
   }
 }
