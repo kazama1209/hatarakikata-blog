@@ -355,5 +355,19 @@
     "url": "",
     "alt": "退職代行を使うか考える人のイメージ画像",
     "source": "AI生成（Gemini）"
+  },
+  "chatgpt-tenshoku-junbi": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "ChatGPTで転職準備をする人のイメージ画像",
+    "source": "AI生成（Gemini）"
+  },
+  "nensyu-kosho-offer-mendan": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "オファー面談で年収交渉をするイメージ画像",
+    "source": "AI生成（Gemini）"
   }
 }
