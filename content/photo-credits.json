@@ -411,5 +411,12 @@
     "url": "",
     "alt": "新しい職場に初出社するビジネスパーソン。試用期間のイメージ",
     "source": "AI生成（Gemini）"
+  },
+  "saishushoku-teate": {
+    "photographer": "Nano Banana Pro",
+    "photographerUrl": "",
+    "url": "",
+    "alt": "窓辺の机で財布と書類を整える人の手元",
+    "source": "AI生成（Gemini）"
   }
 }
